@@ -1,0 +1,22 @@
+/* 사이드바 페이지 라벨 강조 */
+[data-testid="stSidebarNav"] li a {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* 메트릭 카드 살짝 강조 */
+[data-testid="stMetric"] {
+    background-color: rgba(28, 131, 225, 0.06);
+    border-radius: 10px;
+    padding: 12px;
+}
+
+/* 컨테이너 border 강조 */
+[data-testid="stContainer"] {
+    border-radius: 12px;
+}
+
+/* 진행률 바 */
+[data-testid="stProgress"] > div > div > div > div {
+    background: linear-gradient(90deg, #4CAF50, #2196F3);
+}
